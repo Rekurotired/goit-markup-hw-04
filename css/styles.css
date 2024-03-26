@@ -109,7 +109,10 @@ p {
   text-align: center;
   max-width: 1440px;
   width: 100%;
-  background-image: linear-gradient(rgba(14, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url("../images/people-office.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -453,4 +456,13 @@ p {
 
 .socials-icon {
   fill: #f4f4fd;
+}
+
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo {
+  margin-right: 120px;
 }
