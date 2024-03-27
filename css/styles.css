@@ -466,3 +466,8 @@ p {
 .footer-logo {
   margin-right: 120px;
 }
+
+.socials-link:hover,
+.socials-link:focus {
+  background-color: #404bbf;
+}
